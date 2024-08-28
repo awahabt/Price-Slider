@@ -7,40 +7,42 @@
   <body>
     <div class="main">
       <div class="sub-container">
-      <div class="title">
-        <div id="heading">Price Slider</div>
-        <div id="discription">Minimum and Maximum Price Range</div>
+        <div class="title">
+          <div id="heading">Price Slider</div>
+          <div id="discription">Minimum and Maximum Price Range</div>
+        </div>
+        <div class="input-price">
+          <div class="min-display">
+            <p>Minimum Price</p>
+            <input type="numbers" value="2500" class="min-output" />
+          </div>
+          <div class="max-display">
+            <p>Maximum Price</p>
+            <input type="numbers" value="8500" class="min-output" />
+          </div>
+        </div>
+        <div class="slider-container">
+          <div class="price"></div>
+        </div>
+        <div class="input-range bor">
+          <input
+            type="range"
+            class="min-range"
+            min="0"
+            max="10000"
+            value="2500"
+            step="1"
+          />
+          <input
+            type="range"
+            class="max-range"
+            min="0"
+            max="10000"
+            value="8500"
+            step="1"
+          />
+        </div>
       </div>
-      <div class="min-display">
-        <p >Minimum Price</p>
-        <input type="numbers" value="2500" class="min-output" />
-      </div>
-      <div class="max-display">
-        <p>Maximum Price</p>
-        <input type="numbers" value="8500" class="min-output" />
-      </div>
-      <div class="slider-container">
-        <div class="price"></div>
-      </div>
-      <div class="input-range bor">
-        <input
-          type="range"
-          class="min-range"
-          min="0"
-          max="10000"
-          value="2500"
-          step="1"
-        />
-        <input
-          type="range"
-          class="max-range "
-          min="0"
-          max="10000"
-          value="8500"
-          step="1"
-        />
-      </div>
-    </div>
     </div>
   </body>
   <script src="script.js"></script>
